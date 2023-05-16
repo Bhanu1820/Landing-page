@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoma Technologies</title>
+
+    <!-- Loading the stylesheets -->
+    <link rel="stylesheet" href="stylesheets/globle.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    
+    <!-- Loading the script files -->
+    <script src="index.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/firstsection.js"></script>
+    <script src="components/welcomeSection.js"></script>
+    <script src="components/aboutUs.js"></script>
+    <script src="components/ourservices.js"></script>
+    <script src="components/contactUsSection.js"></script>
+    
+   
+</head>
+
+<body>
+    
+    <!-- reusable header that can be used on other web pages  -->
+    <header-component></header-component> 
+     
+    
+        
+    <div id="home">
+        <!-- reusable home component -->
+        <first-section-component></first-section-component>
+        <!-- reusable home component-->
+        <welcome-section></welcome-section>
+    </div>
+
+
+    <div id="aboutUs">
+        <!-- reusable about section that can be used on other web pages  -->
+        <about-component ></about-component>
+    </div>
+
+    <div id="services">
+        <!-- reusable services section that can be used on other web pages -->
+        <services-component></services-component>
+    </div>
+
+    
+    <!-- reusable Contact us component-->
+    <div id="contact">
+        <contact-us-section-component></contact-us-section-component>
+    </div>
+    
+    
+</body>
+
+
+<!-- reusable footer that can be used on other web pages-->
+<footer-component></footer-component>
+
+
+
+</html>

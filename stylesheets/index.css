@@ -1,0 +1,455 @@
+
+
+
+/* head css */
+
+
+.nav-bar{
+    height: 80px;
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-between;
+
+
+}
+@media (max-width: 500px) {
+    .nav-bar{
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+  }
+
+.nav-bar h2{
+   color: aliceblue;
+   margin-left: 50px;
+}
+@media (max-width: 500px) {
+    .nav-bar h2{
+        color: aliceblue;
+        margin-left: 0px;
+     }
+  }
+.nav-bar ul{
+    display: flex;
+    flex-direction: row ;
+    list-style: none;  
+}
+
+.nav-bar ul li a{
+
+    margin: 0px 15px;
+    
+}
+@media (max-width: 500px){
+    .nav-bar ul li a{
+
+        margin-bottom: 10px;
+        
+    }
+}
+
+
+
+  
+.social-row {
+    font-size: 20px;
+}
+  
+.social-row li a {
+    margin: 0 15px;
+}
+.FirstContainer{
+    height: 100px;
+}
+.LeftHalf{
+    height: 90px;
+}
+
+
+
+
+
+/* footer css */
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    padding-top:30px;
+    background: #2f478a;
+
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .footer-top {
+      flex-direction: column;
+    }
+  }
+
+.footer-about{
+    padding: 40px;
+    width: 300px;
+}
+@media (max-width: 800px) {
+    .footer-about{
+        
+        width: 150px;
+    }
+  }
+
+.footer-top ul{
+    list-style: none;
+}
+
+.footer-designing{
+    padding: 40px;
+    width: 200px
+}
+.footer-designing h4{
+    margin-bottom: 15px;
+}
+.footer-linkes h4{
+    margin-bottom: 15px;
+}
+.footer-linkes{
+    padding: 40px;
+    width: 150px;
+}
+.footer-linkes a{
+    margin: 0px;
+    font-weight: 400;
+    
+}
+.footer-copyright{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #1F305E;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright p{
+
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+/* home page css */
+
+.FirstContainer{
+
+    height: 80vh;
+    display: flex;
+    padding: 8rem;
+
+}
+
+@media (max-width: 800px) {
+    .FirstContainer{
+
+        height: 80vh;
+        display: flex;
+        padding: 4rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact us css*/
+
+.content-section-contner{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-heading{
+    padding: 50px;
+}
+.content-heading h2{
+    font-size: 60px;
+}
+.content-heading h4{
+    
+    font-weight: 500;
+}
+
+.contact-body{
+
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+@media (max-width: 800px) {
+    .contact-body{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    
+    }
+    
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 20px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#submit-button{
+    align-self: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;  
+}
+#submit-button:hover{
+    background-color: #1F305E;   
+}
+
+#message{
+    height: 60px;
+}
+.contact-form input{
+
+    width: 30vw;
+    padding: 10px;
+}
+.contact-info{
+    width: 50vw;
+    padding: 20px;
+}
+.contact-info h3{
+    font-size: 40px;
+    margin: 10px;
+}
+.contact-info p{
+    font-size: 15px;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* about us css */
+
+
+
+.aboutUs-tital{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.aboutUs-tital h1{
+
+    align-self: center;
+    font-size: 50px;
+    margin: 20px;
+
+
+}
+.aboutUs-tital h3{
+
+    align-self: center;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.card-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 20px rgb(79, 79, 79);
+    transition: 0.5s;
+
+}
+
+.card:hover{
+    transition: 0.5s;
+    width: 255px;
+    padding: 20px;
+    margin: 20px;
+    height: 355px;
+    
+    box-shadow: 0px 0px 30px #1F305E;
+    
+
+}
+.card h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* first section css */
+
+.FirstContainer{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+}
+
+.rightHalf img{
+    height: 40%;
+    border-radius: 60% 41% 59% 40%;
+    transition: 0.5s;
+}
+
+
+.rightHalf img:hover{
+    transition: 0.5s;
+    height: 40%;
+    border-radius: 47% 48% 52% 53%;
+}
+
+.LeftHalf h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+}
+
+
+
+
+
+/* welcome section */
+
+.welcome-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+}
+.welcome-text h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.welcome-text p{
+    
+    text-align: justify;
+    
+}
+.welcome-image img{
+    width: 400px;
+}
+
+
+
+
+/* services css */
+
+
+.card-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 20px rgb(79, 79, 79);
+    transition: 0.5s;
+
+}
+
+.card-service:hover{
+    transition: 0.5s;
+    width: 255px;
+    padding: 20px;
+    margin: 20px;
+    height: 255px;
+    
+    box-shadow: 0px 0px 30px #1F305E;
+    
+
+}
+.card-service h3{
+    text-align: center;
+}
+.card-service img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
